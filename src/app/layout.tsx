@@ -6,6 +6,11 @@ import DarkLight from "@/components/DarkLight";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata = {
+  title: "Ryan Vermooten",
+  description: "Ryan Vermooten's portfolio",
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{

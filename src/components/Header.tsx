@@ -8,7 +8,7 @@ import HeaderInfo from './HeaderInfo';
 const Header = () => {
   const { image, name, jobTitle, location, experience } = data;
   return (
-    <div className='flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8'>
+    <div className='flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8 pb-7'>
       <div className='w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-full hover:rotate-6 overflow-hidden' >
         <Image
           src={image}
