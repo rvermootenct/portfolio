@@ -6,7 +6,7 @@ const HeaderInfo = ({ Icon, title } : {title: string, Icon: IconType} ) => {
     <Icon
       className='text-violet-700 dark:text-zinc-400'
       size={16} />
-    <span className='capitalize text-base font-semibold text-zinc-900 dark:text-zinc-400'>
+    <span className='capitalize text-sm md:text-base font-semibold text-zinc-900 dark:text-zinc-400'>
       {title}
     </span>
   </div>
