@@ -10,4 +10,5 @@ const data = {
     -4.5/5-Uber
   `,
 }
+
 export default data

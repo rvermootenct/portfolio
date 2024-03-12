@@ -1,6 +1,7 @@
 import ExternalLinks from "@/components/ExternalLinks";
 import Header from "@/components/Header";
 import About from "@/components/About"
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Header />
         <ExternalLinks />
         <About />
+        <Skills />
       </div>
    </main>
   )

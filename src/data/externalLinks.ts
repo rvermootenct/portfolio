@@ -1,4 +1,3 @@
-
 const data = [
   {
     id: 1,
@@ -24,5 +23,6 @@ const data = [
     label: "download cv",
     destination: "/files/cv.pdf",
   },
-];
+]
+
 export default data
