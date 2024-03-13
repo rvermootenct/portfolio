@@ -1,10 +1,10 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa"
 import { GrDocumentMissing } from "react-icons/gr";
 import { MdEmail } from "react-icons/md"
 
-export const ICON_NAMES = ['linkedin', 'github', 'email'] as const
+export const ICON_NAMES = ['linkedin', 'github', 'email', 'CV'] as const
 
-export type IconName = 'linkedin' | 'github' | 'email';
+export type IconName = 'linkedin' | 'github' | 'email' | 'CV';
 
 const titleToIcon = ({ title, style }: {
   title: IconName,
@@ -18,7 +18,8 @@ const titleToIcon = ({ title, style }: {
   const iconList = {
     ['linkedin']: FaLinkedin,
     ['github']: FaGithub,
-    ['email']: MdEmail
+    ['email']: MdEmail,
+    ['CV']: FaFilePdf
   }
   const Icon = iconList[title] || GrDocumentMissing
   return <Icon style={ style } />

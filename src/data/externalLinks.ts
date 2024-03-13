@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 4,
-    name: "cv",
+    name: "CV",
     label: "download cv",
     destination: "/files/cv.pdf",
   },

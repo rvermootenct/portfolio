@@ -19,7 +19,7 @@ const ExternalLinks = () => {
               className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2"
             >
               {Icon}
-              <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">{link.name}</span>
+              <a className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">{link.name}</a>
             </Link>
           )
         })

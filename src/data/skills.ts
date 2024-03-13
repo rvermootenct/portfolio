@@ -12,7 +12,7 @@ const data = [
   { id: 11, name: "Heroku", image: "/skills/heroku.png" },
   { id: 12, name: "AWS", image: "/skills/aws.png" },
   { id: 13, name: "Docker", image: "/skills/docker.png" },
-  { id: 14, name: "GitHub", image: "/skills/git.png" },
+  { id: 14, name: "GitHub", image: "/skills/github.png" },
   { id: 15, name: "CircleCI", image: "/skills/ci.png" },
 ]
 export default data
