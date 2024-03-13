@@ -18,7 +18,7 @@ const Projects = () => {
           <div className="flex-1">
             <h2 className="text-xl font-bold text-black dark:text-white leading-[25px]">{project.company}</h2>
             <Link href={project.url} className="text-base font-semibold text-zinc-500 dark:text-zinc-400 mt-2">{project.url}</Link>
-            <p className="text-base font-semibold text-black dark:text-white mt-2">{project.description}</p>
+            <p className="text-base font-semibold text-zinc-900 dark:text-zinc-400 mt-2">{project.description}</p>
             {project.skills && <div className="flex gap-2 flex-wrap my-2">
               {
                 project?.skills?.map(
