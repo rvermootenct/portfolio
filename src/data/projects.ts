@@ -90,7 +90,7 @@ const data = [
   {
     id: 7,
     company: "RMB",
-    image: "/projects/RMB.png",
+    image: "/projects/rmb.png",
     description: "In house application",
     skills: [
       { id: 1, name: "React Native", image: "/skills/react-native.png" },
@@ -122,7 +122,7 @@ const data = [
   {
     id: 9,
     company: "BANK",
-    image: "/projects/RMB.png",
+    image: "/projects/rmb.png",
     description: "In house application",
     skills: [
       { id: 1, name: "React", image: "/skills/react-native.png" },
