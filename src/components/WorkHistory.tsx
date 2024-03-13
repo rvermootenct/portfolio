@@ -1,7 +1,7 @@
 import Heading from "./Heading"
 import SectionWrapper from "./SectionWrapper"
 import data from '@/data/work'
-import Tablet from "./Tablet"
+import Tablet from "./Tablet/Tablet"
 
 const WorkHistory = () => {
   return (

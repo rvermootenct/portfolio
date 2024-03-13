@@ -1,7 +1,7 @@
 import data from '@/data/projects'
 import Heading from './Heading'
 import SectionWrapper from './SectionWrapper'
-import Tablet from './Tablet'
+import Tablet from './Tablet/Tablet'
 
 const Projects = () => {
   return (
