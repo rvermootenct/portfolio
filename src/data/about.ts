@@ -1,9 +1,8 @@
 const data = {
-  heading: "About Me",
-  bio: `
-    Hi there, my name is Ryan Vermooten, and I'm a thirty-something South African currently living in Muizenberg, Cape Town.
+  bio: `Hi there, my name is Ryan Vermooten, and I'm a thirty-something South African currently living in Muizenberg, Cape Town.
     I enjoy spending time at home working on little DIY projects often involving IoT that keep me busy.
     I have a very inquisitive mind and love learning new things, I'm currently learning all about cyber security and really enjoying it.
+    
     I'm happily married and have a very sweet doggo.
     I enjoy trying to make people laugh, I am known to sing to myself about things I see around me.
     
