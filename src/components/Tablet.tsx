@@ -1,5 +1,5 @@
 import Image from "next/image"
-import SkillComponent from "../SkillComponent"
+import SkillComponent from "./SkillComponent"
 import { Data } from "@/types/global";
   
 const Tablet = ({ info, key }: { info: Data, key: number }) => {
