@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import Tablet from './Tablet';
+import { SKILLS } from '@/types/constants';
 
 const meta: Meta<typeof Tablet> = {
   component: Tablet,
@@ -17,13 +18,10 @@ export const Primary: Story = {
         title: 'title',
         description: 'description',
         skills: [
-          { id: 1, name: 'React', image: '/skills/react.png' },
-          { id: 2, name: 'Next.js', image: '/skills/next-js.png' },
-          { id: 3, name: 'Supabase', image: '/skills/supabase.png' },
-          { id: 4, name: 'Stripe', image: '/skills/stripe.png' },
-          { id: 5, name: 'Github', image: '/skills/github.png' },
-          { id: 6, name: 'Node.js', image: '/skills/node-js.png' },
-          { id: 7, name: 'AWS', image: '/skills/aws.png' }
+          SKILLS.REACT,
+          SKILLS.NEXTJS,
+          SKILLS.SUPABASE,
+          SKILLS.AWS
         ],
         blurb: [`burb1`,`burb2`]
       }
