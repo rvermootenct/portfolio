@@ -9,14 +9,14 @@ const Header = () => {
   const { image, name, jobTitle, location, experience } = data;
   return (
     <div className='flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8 pb-7'>
-      <div className='w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-full hover:rotate-6 overflow-hidden' >
+      <div className='w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-xl overflow-hidden' >
         <Image
           src={image}
           alt="Profile picture"
           width="0"
           height="0"
           sizes="100vw"
-          className='w-full h-full object-cover hover:scale-125 trasition-all'
+          className='w-full h-full object-cover'
         />
       </div>
       <div className="flex-1">
