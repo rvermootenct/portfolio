@@ -8,8 +8,8 @@ const Skills = () => {
     <SectionWrapper>
       <Heading>Skills</Heading>
       <div className="flex flex-wrap items-center gap-5">
-        {data.map(skill => (
-          <div key={skill.id}> 
+        {data.map((skill, i) => (
+          <div key={i}> 
             <SkillComponent skill={skill} />
           </div>
         ))}

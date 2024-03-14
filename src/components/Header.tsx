@@ -1,10 +1,10 @@
 "use client"
 
-import Image from 'next/image';
+import Image from 'next/image'
 import data from '../data/header'
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { IoTerminal } from "react-icons/io5";
-import HeaderInfo from './HeaderInfo';
+import { FaMapMarkerAlt } from 'react-icons/fa'
+import { IoTerminal } from "react-icons/io5"
+import HeaderInfo from './HeaderInfo'
 const Header = () => {
   const { image, name, jobTitle, location, experience } = data;
   return (
@@ -12,9 +12,11 @@ const Header = () => {
       <div className='w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-full hover:rotate-6 overflow-hidden' >
         <Image
           src={image}
-          fill
           alt="Profile picture"
-          className='w-fll h-full object-cover hover:scale-125 trasition-all'
+          width="0"
+          height="0"
+          sizes="100vw"
+          className='w-full h-full object-cover hover:scale-125 trasition-all'
         />
       </div>
       <div className="flex-1">

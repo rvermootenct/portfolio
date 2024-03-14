@@ -7,8 +7,10 @@ const Projects = () => {
   return (
     <SectionWrapper>
       <Heading> Projects </Heading>
-      {data.map((project, key) => (
-        <Tablet info={project} key={key} />
+      {data.map((project, i) => (
+        <div key={i}>
+          <Tablet info={project} />
+        </div>
       ))}
     </SectionWrapper>
   )

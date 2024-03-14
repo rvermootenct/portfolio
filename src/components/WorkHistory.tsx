@@ -8,7 +8,9 @@ const WorkHistory = () => {
     <SectionWrapper>
       <Heading>Work History</Heading>
       {data.map((work, i) => (
-        <Tablet info={work} key={i} />
+        <div key={i}>
+          <Tablet info={work} />
+        </div>
       ))}
     </SectionWrapper>
   )
