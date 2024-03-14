@@ -1,18 +1,20 @@
+import { SKILLS, WORK } from "@/types/constants"
+
 const data = [
   {
-    image: '/work/freelance.png',
-    subtitle: 'Freelance',
+    image: WORK.FREELANCE,
+    subtitle: WORK.FREELANCE,
     title: 'Full Stack Developer',
     type: 'Full-time',
     description: 'Remote - May 2023 - Present',
     skills: [
-      { name: 'React', image: '/skills/react.png' },
-      { name: 'Next.js', image: '/skills/next-js.png' },
-      { name: 'Supabase', image: '/skills/supabase.png' },
-      { name: 'Stripe', image: '/skills/stripe.png' },
-      { name: 'Github', image: '/skills/github.png' },
-      { name: 'Node.js', image: '/skills/node-js.png' },
-      { name: 'AWS', image: '/skills/aws.png' }
+      SKILLS.REACT,
+      SKILLS.NEXTJS,
+      SKILLS.SUPABASE,
+      SKILLS.STRIPE,
+      SKILLS.GITHUB,
+      SKILLS.NODEJS,
+      SKILLS.AWS,
     ],
     blurb: [
       `
@@ -28,22 +30,22 @@ const data = [
     ]
   },
   {
-    image: '/work/yoco.png',
-    subtitle: 'YOCO',
+    image: WORK.YOCO,
+    subtitle: WORK.YOCO,
     title: 'Senior Full Stack Developer',
     type: 'Full-time',
     description: 'Remote - MAR 2022 - NOV 2022',
     skills: [
-      { name: 'React', image: '/skills/react.png' },
-      { name: 'Next.js', image: '/skills/next-js.png' },
-      { name: 'React Native', image: '/skills/react-native.png' },
-      { name: 'Redux', image: '/skills/redux.png' },
-      { name: 'LaunchDarkly', image: '/skills/launch-darkly.png' },
-      { name: 'Github', image: '/skills/github.png' },
-      { name: 'Node.js', image: '/skills/node-js.png' },
-      { name: 'AWS', image: '/skills/aws.png' },
-      { name: 'Sentry', image: '/skills/sentry.png' },
-      { name: 'Docker', image: '/skills/docker.png' },
+      SKILLS.REACT,
+      SKILLS.NEXTJS,
+      SKILLS.REACT_NATIVE,
+      SKILLS.REDUX,
+      SKILLS.LAUNCHDARKLY,
+      SKILLS.GITHUB,
+      SKILLS.NODEJS,
+      SKILLS.AWS,
+      SKILLS.SENTRY,
+      SKILLS.DOCKER
     ],
     blurb: [
       `
@@ -54,25 +56,25 @@ const data = [
     ]
   },
   {
-    image: '/work/nona.png',
-    subtitle: 'NONA digital',
+    image: WORK.NONA,
+    subtitle: WORK.NONA,
     title: 'Full Stack Developer',
     type: 'Full-time',
     description: 'Remote & Hybrid - JUL 2017 - FEB 2022',
     skills: [
-      { name: 'React', image: '/skills/react.png' },
-      { name: 'Next.js', image: '/skills/next-js.png' },
-      { name: 'React Native', image: '/skills/react-native.png' },
-      { name: 'Redux', image: '/skills/redux.png' },
-      { name: 'LaunchDarkly', image: '/skills/launch-darkly.png' },
-      { name: 'Github', image: '/skills/github.png' },
-      { name: 'Node.js', image: '/skills/node-js.png' },
-      { name: 'AWS', image: '/skills/aws.png' },
-      { name: 'Sentry', image: '/skills/sentry.png' },
-      { name: 'Ruby', image: '/skills/rb.png' },
-      { name: 'Ruby On Rails', image: '/skills/rails.png' },
-      { name: 'Docker', image: '/skills/docker.png' },
-      { name: 'Postgres', image: '/skills/postgresql.png' },
+      SKILLS.REACT,
+      SKILLS.NEXTJS,
+      SKILLS.REACT_NATIVE,
+      SKILLS.REDUX,
+      SKILLS.LAUNCHDARKLY,
+      SKILLS.GITHUB,
+      SKILLS.NODEJS,
+      SKILLS.AWS,
+      SKILLS.SENTRY,
+      SKILLS.RUBY,
+      SKILLS.RUBY_ON_RAILS,
+      SKILLS.DOCKER,
+      SKILLS.POSTGRES,
     ],
     blurb: [
       `
@@ -84,25 +86,25 @@ const data = [
     ]
   },
   {
-    image: '/work/shopstar.png',
-    subtitle: 'Shopstar',
+    image: WORK.SHOPSTAR,
+    subtitle: WORK.SHOPSTAR,
     title: 'Full Stack Developer',
     type: 'Full-time',
     description: 'In Office - Jan 2017 - JUL 2017',
     skills: [
-      { name: 'Ruby', image: '/skills/rb.png' },
-      { name: 'Ruby On Rails', image: '/skills/rails.png' },
-      { name: 'Postgres', image: '/skills/postgresql.png' },
-      { name: 'Heroku', image: '/skills/heroku.png' },
-      { name: 'Docker', image: '/skills/docker.png' },
-      { name: 'Next.js', image: '/skills/next-js.png' },
-      { name: 'React Native', image: '/skills/react-native.png' },
-      { name: 'Redux', image: '/skills/redux.png' },
-      { name: 'LaunchDarkly', image: '/skills/launch-darkly.png' },
-      { name: 'Github', image: '/skills/github.png' },
-      { name: 'Node.js', image: '/skills/node-js.png' },
-      { name: 'AWS', image: '/skills/aws.png' },
-      { name: 'Sentry', image: '/skills/sentry.png' },
+      SKILLS.RUBY,
+      SKILLS.RUBY_ON_RAILS,
+      SKILLS.POSTGRES,
+      SKILLS.HEROKU,
+      SKILLS.DOCKER,
+      SKILLS.NEXTJS,
+      SKILLS.REACT_NATIVE,
+      SKILLS.REDUX,
+      SKILLS.LAUNCHDARKLY,
+      SKILLS.GITHUB,
+      SKILLS.NODEJS,
+      SKILLS.AWS,
+      SKILLS.SENTRY
     ],
     blurb: [
       `
@@ -112,16 +114,16 @@ const data = [
     ]
   },
   {
-    image: '/work/sfl.png',
-    subtitle: 'Soil For Life',
+    image: WORK.SFL,
+    subtitle: WORK.SFL,
     title: 'Field Data Manager',
     type: 'Full-time',
     description: 'In Office - Jan 2014 - JUL 2017',
     skills: [
-      { name: 'Ruby', image: '/skills/rb.png' },
-      { name: 'Ruby On Rails', image: '/skills/rails.png' },
-      { name: 'Postgres', image: '/skills/postgresql.png' },
-      { name: 'Heroku', image: '/skills/heroku.png' },
+      SKILLS.RUBY,
+      SKILLS.RUBY_ON_RAILS,
+      SKILLS.POSTGRES,
+      SKILLS.HEROKU
     ],
     blurb: [
       `

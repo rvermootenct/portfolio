@@ -1,13 +1,14 @@
 import Image from "next/image"
 import SkillComponent from "./SkillComponent"
 import { Data } from "@/types/global"
+import { getImagePath } from "@/utils/images"
   
 const Tablet = ({ info }: { info: Data}) => {
   return (
     <div className="flex flex-wrap gap-5 w-full lg:w-8/12 mb-10" >
       <div className="relative w-full md:w-[120px] pt-[56.25%] md:pt-0 md:h-20 rounded-lg overflow-hidden">
         <Image
-          src={info.image}
+          src={getImagePath(info.image)}
           className="w-full h-full absolute top-0 left-0 bottom-0 right-0"
           alt="project image"
           width="0"

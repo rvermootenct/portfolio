@@ -1,10 +1,9 @@
 import Heading from './Heading'
 import data from '@/data/about'
 import SectionWrapper from './SectionWrapper'
-import formatWithLineBreaks from '@/utils/text'
+import { formatWithLineBreaks } from '@/utils/text'
 
 const About = () => {
-
   return (
     <SectionWrapper>
       <Heading>About</Heading>

@@ -5,13 +5,14 @@ import data from '../data/header'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { IoTerminal } from "react-icons/io5"
 import HeaderInfo from './HeaderInfo'
+import { getImagePath } from '@/utils/images'
 const Header = () => {
   const { image, name, jobTitle, location, experience } = data;
   return (
     <div className='flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8 pb-7'>
       <div className='w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-xl overflow-hidden' >
         <Image
-          src={image}
+          src={getImagePath(image)}
           alt="Profile picture"
           width="0"
           height="0"

@@ -1,5 +1,7 @@
+import { MISC } from "@/types/constants";
+
 const data = {
-  image: '/images/profile.jpeg',
+  image: MISC.PROFILE,
   name: 'Ryan Vermooten',
   jobTitle: 'Senior Full Stack Developer',
   location: 'Cape Town, South Africa',

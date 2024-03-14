@@ -3,6 +3,6 @@ export type Data = {
   title: string
   subtitle: string
   description?: string
-  skills: { name: string, image: string }[]
+  skills: string[]
   blurb: string[]
 }
