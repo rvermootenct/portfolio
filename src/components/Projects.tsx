@@ -3,14 +3,12 @@ import Heading from './Heading'
 import SectionWrapper from './SectionWrapper'
 import Tablet from './Tablet'
 
-const Projects = () => {
+function Projects() {
   return (
     <SectionWrapper>
       <Heading> Projects </Heading>
-      {data.map((project, i) => (
-        <div key={i}>
-          <Tablet info={project} />
-        </div>
+      {data.map((project) => (
+        <Tablet info={project} key={project.title} />
       ))}
     </SectionWrapper>
   )

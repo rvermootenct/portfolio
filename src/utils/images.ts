@@ -1,9 +1,12 @@
-import { MISC, PROJECTS, SKILLS, WORK } from "@/types/constants";
+import {
+  MISC, PROJECTS, SKILLS, WORK,
+} from '@/types/constants'
 
-type Dictionary<Key extends keyof any, Value> = {
-  [key in Key]: Value; // Mapped types syntax
-};
-const imageDictionary: Readonly<Dictionary<string, string>> = {
+type Dictionary<Value> = {
+  [key: string]: Value;
+}
+
+const imageDictionary: Readonly<Dictionary<string>> = {
   // Skills
   [SKILLS.ANGULAR]:         '/skills/angularjs.png',
   [SKILLS.AWS]:             '/skills/aws.png',
@@ -43,7 +46,7 @@ const imageDictionary: Readonly<Dictionary<string, string>> = {
   [WORK.SFL]:               '/work/sfl.png',
   [WORK.SHOPSTAR]:          '/work/shopstar.png',
   [WORK.YOCO]:              '/work/yoco.png',
-  
+
   // Projects
   [PROJECTS.BALNS]:         '/projects/balns.png',
   [PROJECTS.CIVIC]:         '/projects/civic.png',
@@ -56,9 +59,9 @@ const imageDictionary: Readonly<Dictionary<string, string>> = {
   [PROJECTS.RMB]:           '/projects/rmb.png',
   [PROJECTS.SARB]:          '/projects/sarb.png',
   [PROJECTS.TRIPPMATCH]:    '/projects/trippmatch.png',
-  
+
   // MISC
-  [MISC.PROFILE]:           '/images/profile.jpeg'
+  [MISC.PROFILE]:           '/images/profile.jpeg',
 }
 
 export const getImagePath = (imageName: string) => imageDictionary[imageName]

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-export const formatWithLineBreaks = (s: string) => s.split('\n').map((line, index) => (
-  <React.Fragment key={index}>
+export const formatWithLineBreaks = (s: string) => s.split('\n').map((line) => (
+  <React.Fragment key={line}>
     {line}
     <br />
   </React.Fragment>

@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Theme from "../components/Theme";
-import DarkLight from "@/components/DarkLight";
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
+import Theme from '@/components/Theme'
+import DarkLight from '@/components/DarkLight'
+import React from 'react'
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: "Ryan Vermooten",
+export const metadata: Metadata = {
+  title: 'Ryan Vermooten',
   description: "Ryan Vermooten's portfolio",
 }
 
@@ -21,7 +22,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <Theme>
           <DarkLight />
-          {children}</Theme></body>
+          {children}
+        </Theme>
+      </body>
     </html>
-  );
+  )
 }

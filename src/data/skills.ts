@@ -1,4 +1,4 @@
-import { SKILLS } from "@/types/constants"
+import { SKILLS } from '@/types/constants'
 
 const data = [
   SKILLS.JAVASCRIPT,

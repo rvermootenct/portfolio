@@ -29,7 +29,7 @@ const SKILLS = {
   SUPABASE: 'Supabase',
   STRIPE: 'Stripe',
   TAILWIND: 'Tailwind',
-  TYPESCRIPT: 'Typescript'
+  TYPESCRIPT: 'Typescript',
 }
 
 const WORK = {
@@ -37,7 +37,7 @@ const WORK = {
   NONA: 'NONA Digital',
   SFL: 'Soil For Life',
   SHOPSTAR: 'Shopstar',
-  YOCO: 'YOCO'
+  YOCO: 'YOCO',
 }
 
 const PROJECTS = {
@@ -51,11 +51,13 @@ const PROJECTS = {
   REKINDLE: 'Rekindle',
   RMB: 'RMB',
   SARB: 'SARB',
-  TRIPPMATCH: 'Trippmatch'
+  TRIPPMATCH: 'Trippmatch',
 }
 
 const MISC = {
-  PROFILE: 'Profile'
+  PROFILE: 'Profile',
 }
 
-export { SKILLS, WORK, PROJECTS, MISC }
+export {
+  SKILLS, WORK, PROJECTS, MISC,
+}

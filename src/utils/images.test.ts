@@ -1,5 +1,7 @@
-import { MISC, PROJECTS, SKILLS, WORK } from '@/types/constants';
-import * as SUT from './images';
+import {
+  MISC, PROJECTS, SKILLS, WORK,
+} from '@/types/constants'
+import * as SUT from './images'
 
 describe('getImagePath', () => {
   it('returns the correct image path for a given image name', () => {
@@ -11,6 +13,6 @@ describe('getImagePath', () => {
   })
 
   it('returns undefined for an invalid image name', () => {
-    expect(SUT.getImagePath('invalid')).toBeUndefined();
+    expect(SUT.getImagePath('invalid')).toBeUndefined()
   })
 })

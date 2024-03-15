@@ -1,4 +1,4 @@
-const Footer = () => {
+function Footer() {
   return (
     <footer className="border-t border-t-zinc-100 dark:border-t-zinc-800 mt-8">
       <div className="max-w-screen-xl mx-auto px-4 py-6">
