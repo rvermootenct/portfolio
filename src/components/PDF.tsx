@@ -16,6 +16,7 @@ import projects from '@/data/projects'
 import { Data } from '@/types/global'
 import titleToIcon, { IconName } from '@/utils/icons'
 import Link from 'next/link'
+import refrencesData from '@/data/refrences'
 
 const tw = createTw({
   theme: {
@@ -154,6 +155,40 @@ function About() {
   )
 }
 
+function Refrences() {
+  return (
+    <View style={tw('border-t py-7 border-zinc-100')}>
+      <Heading text="Refrences" />
+      {refrencesData.map((refrence) => (
+        <View style={tw('border border-zinc-100 rounded-lg p-5 mb-6 mt-2')} wrap={false} key={refrence.name}>
+          <View key={refrence.name}>
+            <Text style={tw('text-base font-semibold text-black')}>
+              Name:
+              {' '}
+              {refrence.name}
+            </Text>
+            <Text style={tw('text-base font-semibold text-black')}>
+              Position:
+              {' '}
+              { refrence.position}
+            </Text>
+            <Text style={tw('text-base font-semibold text-black')}>
+              Company:
+              {' '}
+              {refrence.company}
+            </Text>
+            <Text style={tw('text-base font-semibold text-black')}>
+              Email:
+              {' '}
+              {refrence.email}
+            </Text>
+          </View>
+        </View>
+      ))}
+    </View>
+  )
+}
+
 function WorkHistory() {
   return (
     <View style={tw('border-t py-7 border-zinc-100')}>
@@ -193,6 +228,7 @@ const MyDoc = (
       <View style={tw('max-w-screen-xl w-full mx-auto p-4')}>
         <WorkHistory />
         <Projects />
+        <Refrences />
       </View>
     </Page>
   </Document>
