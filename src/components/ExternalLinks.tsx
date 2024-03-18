@@ -3,6 +3,7 @@ import data from '@/data/externalLinks'
 import Link from 'next/link'
 import Heading from './Heading'
 import SectionWrapper from './SectionWrapper'
+import PDFDownload from './PDF'
 
 function ExternalLinks() {
   return (
@@ -23,6 +24,7 @@ function ExternalLinks() {
             </Link>
           )
         })}
+        <PDFDownload />
       </div>
     </SectionWrapper>
   )

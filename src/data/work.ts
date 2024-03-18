@@ -1,6 +1,6 @@
 import { SKILLS, WORK } from '@/types/constants'
 
-const data = [
+const workHistory = [
   {
     image: WORK.FREELANCE,
     subtitle: WORK.FREELANCE,
@@ -133,4 +133,4 @@ const data = [
   },
 ]
 
-export default data
+export default workHistory

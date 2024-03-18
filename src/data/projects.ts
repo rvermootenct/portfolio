@@ -1,6 +1,6 @@
 import { PROJECTS, SKILLS } from '@/types/constants'
 
-const data = [
+const projects = [
   {
     title: PROJECTS.SARB,
     image: PROJECTS.SARB,
@@ -158,4 +158,4 @@ const data = [
   },
 ]
 
-export default data
+export default projects

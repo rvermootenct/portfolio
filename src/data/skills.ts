@@ -1,6 +1,6 @@
 import { SKILLS } from '@/types/constants'
 
-const data = [
+const skillsData = [
   SKILLS.JAVASCRIPT,
   SKILLS.TYPESCRIPT,
   SKILLS.RUBY,
@@ -18,4 +18,4 @@ const data = [
   SKILLS.CIRCLECI,
 ]
 
-export default data
+export default skillsData
