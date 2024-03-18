@@ -14,6 +14,8 @@ import skillsData from '@/data/skills'
 import workHistory from '@/data/work'
 import projects from '@/data/projects'
 import { Data } from '@/types/global'
+import titleToIcon, { IconName } from '@/utils/icons'
+import Link from 'next/link'
 
 const tw = createTw({
   theme: {
@@ -198,8 +200,20 @@ const MyDoc = (
 
 function PDFDownload() {
   const [instance] = usePDF({ document: MyDoc })
+  const icon = titleToIcon({ title: 'CV' as IconName, style: { size: 20 } })
 
-  if (instance.loading) return <View>Loadingss ...</View>
+  if (instance.loading) {
+    return (
+      <Link
+        href="/"
+        key="CV"
+        className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2"
+      >
+        {icon}
+        <div className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">Building CV</div>
+      </Link>
+    )
+  }
 
   if (instance.error) {
     return (
@@ -211,9 +225,15 @@ function PDFDownload() {
   }
 
   return (
-    <a href={instance.url ?? ''} download="test1.pdf">
-      Downloads
-    </a>
+    <Link
+      href={instance.url ?? ''}
+      key="CV"
+      target="_blank"
+      className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2"
+    >
+      {icon}
+      <div className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">CV</div>
+    </Link>
   )
 }
 

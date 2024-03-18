@@ -14,11 +14,6 @@ const data = [
     label: 'email',
     destination: 'mailto:hello@rvermooten.dev',
   },
-  {
-    name: 'CV',
-    label: 'download cv',
-    destination: '/files/cv.pdf',
-  },
 ]
 
 export default data
