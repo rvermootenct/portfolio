@@ -4,6 +4,7 @@ import './globals.css'
 import Theme from '@/components/Theme'
 import DarkLight from '@/components/DarkLight'
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <DarkLight />
           {children}
         </Theme>
+        <Analytics />
       </body>
     </html>
   )
