@@ -1,16 +1,12 @@
 const data = {
   bio: `
-Hi there, my name is Ryan Vermooten, I'm a thirty-something South African currently living in Cape Town.
+My name is Ryan Vermooten, and I am a software developer working primarily with React, TypeScript, Node and AWS. I have been working in the software development industry for over 7 years, and in that time, I have been able to meet vastly different business needs over many high profile projects. 
 
-I enjoy spending time at home working on little DIY projects often involving IoT that keep me busy.
-I have a very inquisitive mind and love learning new things, I'm currently learning all about cyber security and really enjoying it.
-    
-I'm happily married and have a very sweet doggo.
-I enjoy trying to make people laugh, I am known to sing to myself about things I see around me.
-    
-That's about all I can think to write about myself, but check out these referrals for more info:
-'One of the nicest people you will ever meet' - Mom
-4.5/5-Uber
+I have a fondness for upskilling juniors and supporting the growth of development teams through mentorship and peer programming. 
+  
+I am known to be a tinkerer, and spend much of my free time on DIY projects that incorporate elements of IoT and electronics, and I like to keep my mind busy by continuously studying and adding tools to my arsenal. Currently I am learning about cyber security and its multitude of applications, and I'm thoroughly enjoying it. 
+  
+I live in Cape Town with my wife, who also works in the software development industry, and my amazing dog, who unfortunately does not. I really enjoy making people laugh and seeing the humour in every day, and consider myself a team player who easily adapts to new environments and challenges.
 `,
 }
 

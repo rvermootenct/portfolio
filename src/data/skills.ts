@@ -1,21 +1,5 @@
 import { SKILLS } from '@/types/constants'
 
-const skillsData = [
-  SKILLS.JAVASCRIPT,
-  SKILLS.TYPESCRIPT,
-  SKILLS.RUBY,
-  SKILLS.REACT,
-  SKILLS.REACT_NATIVE,
-  SKILLS.REDUX,
-  SKILLS.NEXTJS,
-  SKILLS.NODEJS,
-  SKILLS.POSTGRES,
-  SKILLS.JEST,
-  SKILLS.HEROKU,
-  SKILLS.AWS,
-  SKILLS.DOCKER,
-  SKILLS.GITHUB,
-  SKILLS.CIRCLECI,
-]
+const skillsData = Object.entries(SKILLS).map(([, value]) => value)
 
 export default skillsData

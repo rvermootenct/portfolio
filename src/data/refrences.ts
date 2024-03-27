@@ -2,20 +2,20 @@ const refrencesData = [
   {
     name: 'James Smith',
     position: 'VP of Engineering',
-    company: 'BASH',
-    email: 'james@herebedragons.tech',
+    company: 'Freelance',
+    contact: 'james@herebedragons.tech',
   },
   {
     name: "Ed O'Reilly",
     position: 'Head of Capability',
-    company: 'YOCO',
-    email: 'ed@ed.com',
+    company: 'NONA digital',
+    contact: '+27 76 681 4387',
   },
   {
     name: "Dave O'Reilly",
     position: 'Principal Engineer',
     company: 'YOCO',
-    email: 'dave@yoco.com',
+    contact: 'notevenjoking@gmail.com',
   },
 ]
 export default refrencesData

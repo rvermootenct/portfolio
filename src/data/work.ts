@@ -18,14 +18,7 @@ const workHistory = [
     ],
     blurb: [
       `
-        Worked on a greenfields project implementing a video calling service.
-        The app at a high level is a marketplace for vetted chanellers and people looking for their services
-        to find each other and use the service to have a video conference.
-        The app utilised webRTC through a third party service called 100ms to build the application.
-      `,
-      `
-        Helping prepare for product launch and upkeep of a number of existing products.
-        Was able to work with a small team from the Netherlands and learn about the Tezos ecosystem.
+      Over the past 10 months, I have been freelancing as a full stack developer. In this time, I have built bespoke web applications for clients, either as part of a team or as the sole developer. The projects I have worked on include a video conferencing app, crypto utilities and a cryto portfolio website.
       `,
     ],
   },
@@ -49,9 +42,10 @@ const workHistory = [
     ],
     blurb: [
       `
-        Responsible for working within the online section of the business. Worked with teams on invoices,
-        link to pay, and admin portal. I also led a team creating an online store product.
-        Responsible for working with other developers and ensuring that code is of a high standard with good test coverage.
+        During the time I was at yoco I was responsible for working within the online section of the business.
+        I worked on multiple parts of the app including invoices,link to pay, and admin portal.
+        I also led a team creating an online store product.
+        I really enjoyed working with other developers and ensuring that code is of a high standard with good test coverage.
       `,
     ],
   },
@@ -81,7 +75,7 @@ const workHistory = [
         Over the course of my employment at Nona my knowledge of technologies, frameworks and tools
         expanded greatly and I got to work extensively with cloud native platforms such as AWS, practised TDD and BDD,
         utilised CI/CD best practices and helped build out multiple mobile and web based projects.
-        One thing I greatly enjoyed during my time with the subtitle was having the opportunity to work with and to mentor more junior people on my team.
+        One thing I greatly enjoyed during my time with NONA was having the opportunity to work with and to mentor more junior people on my team.
       `,
     ],
   },
@@ -108,26 +102,8 @@ const workHistory = [
     ],
     blurb: [
       `
-        Responsible for upkeep and feature development of a large app that allows small shop owners to create their
+        I was responsible for upkeep and feature development of a large app that allows small shop owners to create their
         own online shop in the South African market, much like shopify.
-      `,
-    ],
-  },
-  {
-    image: WORK.SFL,
-    subtitle: WORK.SFL,
-    title: 'Field Data Manager',
-    type: 'Full-time',
-    description: 'In Office - Jan 2014 - JUL 2017',
-    skills: [
-      SKILLS.RUBY,
-      SKILLS.RUBY_ON_RAILS,
-      SKILLS.POSTGRES,
-      SKILLS.HEROKU,
-    ],
-    blurb: [
-      `
-        Responsible for creation and management of Data collection applications for monitoring and evaluation purposes of the programs the organization was running.
       `,
     ],
   },

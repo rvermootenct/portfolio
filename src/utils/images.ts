@@ -8,14 +8,9 @@ type Dictionary<Value> = {
 
 const imageDictionary: Readonly<Dictionary<string>> = {
   // Skills
-  [SKILLS.ANGULAR]:         '/skills/angularjs.png',
   [SKILLS.AWS]:             '/skills/aws.png',
-  [SKILLS.BOOTSTRAP]:       '/skills/bootsrap.png',
   [SKILLS.CIRCLECI]:        '/skills/ci.png',
-  [SKILLS.CPP]:             '/skills/cplusplus.png',
   [SKILLS.DOCKER]:          '/skills/docker.png',
-  [SKILLS.ETHEREUM]:        '/skills/ethereum.png',
-  [SKILLS.EXPRESS]:         '/skills/express.png',
   [SKILLS.FIGMA]:           '/skills/figma.png',
   [SKILLS.GITHUB]:          '/skills/github.png',
   [SKILLS.GRAPHQL]:         '/skills/graphql.png',
@@ -27,7 +22,6 @@ const imageDictionary: Readonly<Dictionary<string>> = {
   [SKILLS.NEXTJS]:          '/skills/next-js.png',
   [SKILLS.NODEJS]:          '/skills/node-js.png',
   [SKILLS.POSTGRES]:        '/skills/postgresql.png',
-  [SKILLS.RAILS]:           '/skills/rails.png',
   [SKILLS.RAMDA]:           '/skills/ramda.png',
   [SKILLS.REACT]:           '/skills/react.png',
   [SKILLS.REACT_NATIVE]:    '/skills/react-native.png',
@@ -43,7 +37,7 @@ const imageDictionary: Readonly<Dictionary<string>> = {
   // Work
   [WORK.FREELANCE]:         '/work/freelance.png',
   [WORK.NONA]:              '/work/nona.png',
-  [WORK.SFL]:               '/work/sfl.png',
+  [WORK.SFL]:               '/work/soilforlife.png',
   [WORK.SHOPSTAR]:          '/work/shopstar.png',
   [WORK.YOCO]:              '/work/yoco.png',
 

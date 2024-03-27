@@ -4,7 +4,7 @@ const projects = [
   {
     title: PROJECTS.SARB,
     image: PROJECTS.SARB,
-    blurb: ['In house application'],
+    blurb: ['The South African Reserve Bank (SARB) is the central bank of South Africa. We were contracted to create a React Native application for a test product. The project demanded stringent adherence to non-disclosure agreements (NDAs) due to its sensitive nature.'],
     skills: [
       SKILLS.REACT_NATIVE,
       SKILLS.TYPESCRIPT,
@@ -21,7 +21,7 @@ const projects = [
   {
     title: PROJECTS.FERREMUNDO,
     image: PROJECTS.FERREMUNDO,
-    blurb: ['Online group buying ecommerce platform for the construction industry.'],
+    blurb: ['Ferremundo is a commercial seller to hardware stores. We built an innovative online group-buying ecommerce platform to allow different hardware stores to bulk purchase together. The application is currently being used in South America.'],
     skills: [
       SKILLS.REACT_NATIVE,
       SKILLS.JAVASCRIPT,
@@ -35,7 +35,7 @@ const projects = [
   {
     title: PROJECTS.RMB,
     image: PROJECTS.RMB,
-    blurb: ['In house pricing calculator used for internal processes.'],
+    blurb: ['Rand National Bank is a large corporate and investment bank. We developed a sophisticated in-house pricing calculator to streamline internal processes. While not responsible for the underlying calculations, we designed and implemented a user-friendly interface (UI) to facilitate efficient utilization of the pricing algorithms for loan approvals. By using redux and react, we were able to create a highly responsive and intuitive UI with a single source of truth.'],
     skills: [
       SKILLS.REACT,
       SKILLS.TYPESCRIPT,
@@ -49,7 +49,7 @@ const projects = [
   {
     title: PROJECTS.MEDIA24,
     image: PROJECTS.MEDIA24,
-    blurb: ['Integrate commenting and filtering of comments using a third party LLM service'],
+    blurb: ['News24 is one of the largest news outlets in South Africa. After a failed attempt at implementing a user commenting system we were contracted to add a commenting system using an LLM for comment filtering. Additionally, I collaborated on the development of the subscription service for the News24 mobile application, enabling users to access premium content and personalized features. Both features are still in use today.'],
     skills: [
       SKILLS.REACT_NATIVE,
       SKILLS.JAVASCRIPT,
@@ -62,37 +62,9 @@ const projects = [
     subtitle: 'www.media24.com',
   },
   {
-    title: PROJECTS.BALNS,
-    image: PROJECTS.BALNS,
-    blurb: ['Cryto Wallet'],
-    skills: [
-      SKILLS.REACT_NATIVE,
-      SKILLS.TYPESCRIPT,
-      SKILLS.AWS,
-      SKILLS.NODEJS,
-      SKILLS.CIRCLECI,
-      SKILLS.REDUX,
-    ],
-    subtitle: 'https://balns.io',
-  },
-  {
-    title: PROJECTS.MT,
-    image: PROJECTS.MT,
-    blurb: ['A mobile app focused on mental health. Also had a CMS for the admin to manage the content.'],
-    skills: [
-      SKILLS.REACT_NATIVE,
-      SKILLS.TYPESCRIPT,
-      SKILLS.AWS,
-      SKILLS.NEXTJS,
-      SKILLS.NODEJS,
-      SKILLS.CIRCLECI,
-    ],
-    subtitle: ' https://metaphoricaltherapy.com',
-  },
-  {
     title: PROJECTS.CIVIC,
     image: PROJECTS.CIVIC,
-    blurb: ['Worked on crypto wallet app'],
+    blurb: ['Civic is a provider of identity and access management solutions. I contributed to the development of a cryptocurrency wallet application by building intuitive and user-friendly UI components and integrating them with the backend system. I utilized React Native and TypeScript to create cross-platform UI components. I integrated the UI components with the backend infrastructure, enabling users to securely manage their cryptocurrency assets'],
     skills: [
       SKILLS.REACT_NATIVE,
       SKILLS.TYPESCRIPT,
@@ -104,7 +76,7 @@ const projects = [
   {
     title: PROJECTS.QUICKET,
     image: PROJECTS.QUICKET,
-    blurb: ['Ticket checkout system with offline capabilities'],
+    blurb: ['Quicket is a fast and effective online ticketing service for events of all sizes. Within minutes anyone can create an event profile and start selling tickets though their secure online payment gateway. We built a react native application for them using firebase to provide extensive offline capabilities (with later syncing) as many events in South Africa are at locations without cellphone reception. The application launched successfully at a large event and has served many thousands of event goers over the years.'],
     skills: [
       SKILLS.REACT_NATIVE,
       SKILLS.JAVASCRIPT,
@@ -114,47 +86,6 @@ const projects = [
       SKILLS.JEST,
     ],
     subtitle: 'www.quicket.co.za',
-  },
-  {
-    title: PROJECTS.REKINDLE,
-    image: PROJECTS.REKINDLE,
-    blurb: ['A web app for teaching students English. Included study material and quizes. It had a CMS for the admin to manage the content.'],
-    skills: [
-      SKILLS.REACT_NATIVE,
-      SKILLS.TYPESCRIPT,
-      SKILLS.AWS,
-      SKILLS.NEXTJS,
-      SKILLS.NODEJS,
-      SKILLS.CIRCLECI,
-    ],
-    subtitle: 'https://www.english.co.za/',
-  },
-  {
-    title: PROJECTS.TRIPPMATCH,
-    image: PROJECTS.TRIPPMATCH,
-    blurb: ["A web app for travellers who know what type of holiday they are looking for, buy not where to go for holiday. It matches them up with the possible trip options and allows the user to read other people's experiences of the destination."],
-    skills: [
-      SKILLS.RUBY_ON_RAILS,
-      SKILLS.JAVASCRIPT,
-      SKILLS.HEROKU,
-      SKILLS.POSTGRES,
-      SKILLS.CIRCLECI,
-    ],
-    subtitle: 'https://www.trippmatch.com',
-  },
-
-  {
-    title: PROJECTS.LANCEWOOD,
-    image: PROJECTS.LANCEWOOD,
-    blurb: ['A website about cheese with recipes 🧀'],
-    skills: [
-      SKILLS.RUBY_ON_RAILS,
-      SKILLS.JAVASCRIPT,
-      SKILLS.HEROKU,
-      SKILLS.POSTGRES,
-      SKILLS.CIRCLECI,
-    ],
-    subtitle: 'https://www.lancewood.co.za',
   },
 ]
 
